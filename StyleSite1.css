@@ -1,0 +1,132 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* colocando como padrao a fonte "ARIAL" */
+}
+
+/* Iniciando as configirações do topo do "SITE" */
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    background-color: #353535;
+    height: 50px;
+}
+
+.topoInterior {
+    width: 1000px;
+    margin: auto;
+    color: aliceblue;
+}
+
+.topoLogo {
+    float: left;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.topoMenu {
+    float: right;
+}
+
+.topoMenu ul,
+.topoMenu li {
+    margin: 0;
+    list-style: none;
+    color: aliceblue;
+}
+
+.topoMenu li {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.topoMenu li:hover {
+    background-color: rgb(114, 164, 245);
+}
+
+/* Inicio das configurações do "CORPO DO SITE" */
+
+.corpo {
+    background-color: rgb(114, 164, 245);
+    height: 280px;
+}
+
+.corpoInterno {
+    width: 1000px;
+    margin: auto;
+}
+
+.corpoLogoHeight {
+    float: left;
+}
+
+.fraseLogo1 {
+    font-size: 22px;
+    color: rgb(121, 124, 120);
+}
+
+.fraseLogo2 {
+    font-size: 22px;
+    color: rgb(66, 68, 65);
+}
+
+.fraseLogoBoton {
+    background-color: rgb(240, 176, 15);
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 80px;
+    line-height: 50px;
+    border-radius: 6px;
+    color: black;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.fraseLogoBoton:hover {
+    cursor: pointer;
+    color: rgb(17, 243, 9);
+    background-color: grey;
+}
+
+.corpoLogoRight {
+    float: right;
+    padding-top: 33px;
+}
+
+/* DIV de separação de Corpo para o inicio das fotos*/
+.separaCorpoFoto {
+    background-color: rgb(228, 243, 243);
+    color: rgb(59, 59, 58);
+    line-height: 50px;
+}
+
+/*Incerindo fotos de propaganda*/
+.fotosProtos {
+    background-color: blue;
+}
+
+.fotosProtos img {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*Terminando com o footer do site*/
+
+.rodape {
+    background-color: rgb(114, 164, 245);
+    font-size: 20px;
+    color: rgb(32, 32, 31);
+    line-height: 50px;
+}
