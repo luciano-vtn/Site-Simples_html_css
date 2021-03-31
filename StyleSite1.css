@@ -134,10 +134,14 @@ body {
     background: -moz-linear-gradient(blue, rgb(241, 97, 97), grey);
     background: -o-linear-gradient(blue, rgb(241, 97, 97), grey);
     background: -moz-linear-gradient(blue, rgb(241, 97, 97), grey);
-    background: -webkit-linear-gradient(blue, rgb(241, 97, 97), grey); /*BROWSER "SAFARI" */
+    background: -webkit-linear-gradient(blue, rgb(241, 97, 97), grey);/*BROWSER "SAFARI" */
 
     /* DEVIDO ALGUNS browsers não suportarem o (linear-gradiente), temos que usar algumas proteções.
     1º -> Colocar um -> brackgraund fixo para o caso do browser não suportar (ver linha - 132);
     2º -> Incerir no codigo o brackground: linear-gradiente [da forma crreta] (linha 133);
-    3º -> USAR estes comandos para caso o browser são suporte. (linhas : 134, 135, 136, 137).*/
+    3º -> USAR estes comandos para caso o browser são suporte. (linhas : 134, 135, 136, 137);
+    Extra podemos definir a direção do gradiente -> USAMOS a seguinte sintaxe: 
+    background: linear-gradient( 45deg, blue, rgb(241, 97, 97), grey); "O 45 ("deg" - refere-se a graus)"
+    e o 45 são os graus que de inicio do gradiente {numeros positivos como o 45 inicia de baixo para cima indo para a "direita"
+    e numeros negativos como -45 iniciam de baixo para cima indo para a "esqerda".  }*/
 }
