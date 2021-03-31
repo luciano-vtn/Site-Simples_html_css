@@ -125,8 +125,9 @@ body {
 /*Terminando com o footer do site*/
 
 .rodape {
-    background-color: rgb(151, 187, 246);
+    /*background-color: rgb(151, 187, 246);*/
     font-size: 20px;
     color: rgb(32, 32, 31);
     line-height: 50px;
+    background: linear-gradient(blue, rgb(241, 97, 97), grey);
 }
