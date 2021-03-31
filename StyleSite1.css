@@ -129,5 +129,15 @@ body {
     font-size: 20px;
     color: rgb(32, 32, 31);
     line-height: 50px;
+    background: rgb(151, 187, 246);
     background: linear-gradient(blue, rgb(241, 97, 97), grey);
+    background: -moz-linear-gradient(blue, rgb(241, 97, 97), grey);
+    background: -o-linear-gradient(blue, rgb(241, 97, 97), grey);
+    background: -moz-linear-gradient(blue, rgb(241, 97, 97), grey);
+    background: -webkit-linear-gradient(blue, rgb(241, 97, 97), grey); /*BROWSER "SAFARI" */
+
+    /* DEVIDO ALGUNS browsers não suportarem o (linear-gradiente), temos que usar algumas proteções.
+    1º -> Colocar um -> brackgraund fixo para o caso do browser não suportar (ver linha - 132);
+    2º -> Incerir no codigo o brackground: linear-gradiente [da forma crreta] (linha 133);
+    3º -> USAR estes comandos para caso o browser são suporte. (linhas : 134, 135, 136, 137).*/
 }
